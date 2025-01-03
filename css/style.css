@@ -1,0 +1,190 @@
+a:link, a:visited{
+  text-decoration: none;
+}
+header {
+  position: sticky;
+  top: -15px;
+  padding-top: 15;
+  opacity: 0.7;
+  background-color: white;
+}
+.mail{
+  color:black;
+  background-color: #d7f397;
+  padding: 1rem 1rem;
+  margin: 1rem 2rem;
+  border-radius: 30px;
+  display: inline-block;
+}
+.mail:hover{
+  background-color: #ffffff;
+  box-shadow: 0rem 0.5rem 0.5rem -0.2rem rgba(0, 0, 0, 0.2);
+  transition: all 3s ease;
+  transform: rotate(360deg);
+}
+.rectangle{
+  height: 3rem;
+  width: 6rem;
+  margin: 2rem auto;
+  border: 2px dotted gray;
+}
+.rectangle:hover{
+  transition: all 3s ease;
+  transform: rotate(360deg);
+  background-color: #a9add3;
+}
+.top_links {
+  background-color: #d7f397;
+  padding: 1rem 1rem;
+  margin: 1rem 2rem;
+  border-radius: 30px;
+  display: inline-block;
+}
+.top_links:hover {
+  background-color: #ffffff;
+  box-shadow: 0rem 0.5rem 0.5rem -0.2rem rgba(0, 0, 0, 0.2);
+  transition: all 3s ease;
+  transform: rotate(360deg);
+}
+a:hover{
+  text-decoration: #9198e5;
+}
+a:active{
+  text-decoration: aliceblue;
+}
+.section{
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+body{
+  background: linear-gradient(to bottom right,#d9e0b6, #E6D7AC);
+  scroll-behavior: smooth;
+}
+.title{
+  border-bottom: 1px dotted #bbbbbb;
+  border-radius: 30px;
+  width: 25 rem;
+  margin-bottom: 4rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.container{
+  width: 56rem;
+  margin: 3rem auto;
+  transition: 5s ease-in;
+}
+.white{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(100, 100, 129), 0 0 5px rgb(103, 103, 107);
+}
+p{
+  color: #585555;
+}
+.white_2{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(100, 100, 129), 0 0 5px rgb(103, 103, 107);
+}
+h1 {font-family: 'Rajdhani', sans-serif;
+}
+h2 {font-family: 'Rajdhani', sans-serif;}
+h3 {font-family: 'Rajdhani', sans-serif;}
+h4 {font-family: 'Rajdhani', sans-serif;}
+h1, h2, h3, h4 {line-height:calc(29/16)}
+@media (min-width: 38rem){
+  h1{ font-size: 3.815rem;}
+  h2{ font-size: 3.052;}
+  h3{ font-size: 2.441rem;}
+  h4{ font-size: 1.953rem;}
+}
+@media (min-width: 87.5rem){
+  h1{ font-size: 5.61rem;}
+  h2{ font-size: 4.209rem;}
+  h3{ font-size: 3.157rem;}
+  h4{ font-size: 2.369rem;}
+}
+p{ font-size: 1rem;
+  line-height: 1.5rem;  
+}
+h1 {color: black;}
+h2 {color: black;}
+h3 {color: black;}
+h4 {color: black;}
+a:link{
+  color:rgb(39, 44, 44)
+}
+a:visited{
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+hr {
+  border: 0;
+  width: 80%;
+  color:antiquewhite;
+  height: 3px;
+}
+th {
+  border: 0;
+  width: 50%;
+  color: antiquewhite;
+}
+td {
+  border: 0;
+  width: 50%;
+  color:antiquewhite;
+}
+html{
+  font-size: 112.5%;
+  box-sizing: border-box;
+}
+nav a {
+  color:#ffffff
+}
+nav a:hover {
+  color:#9198e5
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.goals-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+.goals, .goals-image{
+  flex:1;
+  text-align: center;
+}
+.foods-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+.foods-text, .foods-image {
+  flex: 1;
+  text-align: center;
+}
+.foods-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.goals-image img {
+  border-radius: 8px;
+}
+.goals-text h2 {
+  margin: 0;
+}
+/*Jasper helped me figure out what the border and width of the td and the th did and then suggested how I could make the color's blend with the background.*/ 
